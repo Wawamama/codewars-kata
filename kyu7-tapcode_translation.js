@@ -1,11 +1,9 @@
-// /!\ NOT FINISHED : This function doesn't work with C and K's
-
 function tapCodeTranslation(text) {
   let letters = text.toUpperCase().split('');
   let finalString = '';
     
   const lines = [
-    ['A', 'B', 'C/K', 'D', 'E'],
+    ['A', 'B', 'C', 'K', 'D', 'E'],
     ['F', 'G', 'H', 'I', 'J'],
     ['L', 'M', 'N', 'O', 'P'],
     ['Q', 'R', 'S', 'T', 'U'],
@@ -15,7 +13,7 @@ function tapCodeTranslation(text) {
   const columns = [
     ['A', 'F', 'L', 'Q', 'V'],
     ['B', 'G', 'M', 'R', 'W'],
-    ['C/K', 'H', 'N', 'S', 'X'],
+    ['C', 'K', 'H', 'N', 'S', 'X'],
     ['D', 'I', 'O', 'T', 'Y'],
     ['E', 'J', 'P', 'U', 'Z']   
   ];
