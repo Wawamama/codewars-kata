@@ -3,7 +3,7 @@ const movie = (card, ticket, perc) => {
     let newPrice = ticket * perc;
     let systemA = ticket * n;
     let systemB = card + newPrice;
-    while (systemA < Math.ceil(systemB)) {
+    while (systemA <= Math.ceil(systemB)) {
       n++;
       newPrice *= perc;
       systemB += newPrice;
