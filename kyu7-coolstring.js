@@ -24,3 +24,9 @@ function coolString(s) {
   return result;
   }
 
+// EDIT : NEW WAY SHORTER AND BETTER ARROW FUNCTION 
+
+const coolString = (string) => {
+  return !/[a-z]{2,}|[A-Z]{2,}|[^A-Za-z]/.test(string)
+}
+
